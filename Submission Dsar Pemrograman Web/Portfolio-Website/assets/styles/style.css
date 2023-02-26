@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Overpass", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3333;
+    color: #E7F6F2;
+    font-weight: 300;
+}
+
+h1 h2 h3 {
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 50px 10px;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(57, 91, 100));
+}
+
+a {
+    color: #E7F6F2;
+    text-decoration: none;
+}
+
+.header-left {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.header-right li {
+    display: inline;
+    padding: 8px;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1248px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#journey {
+    padding-block: 100px;
+    display: flexbox;
+}
+
+.card {
+    box-shadow: 0 2px 8px 2px #395B64;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project {
+    padding-block: 30px;
+}
+
+.cover-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 4px #395B64;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(57, 91, 100);
+    border-radius: 60px 60px 0 0;
+}
+
+.profile-img {
+    border-radius: 100%;
+    max-height: 7rem;
+}
+
+#contact {
+    padding-left: 60px;
+}
+
+footer {
+    padding: 20px;
+    color: #E7F6F2;
+    background-color: rgb(57, 91, 100);
+}
+
+@media screen and (max-width: 820px) {
+    .jumbotron {
+        font-size: medium;
+        width: 100%;
+        padding: 0;
+    }
+  }

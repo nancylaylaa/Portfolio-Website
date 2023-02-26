@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nancy Laylana Putri | Bangkit Cohort 2023</title>
+        <link rel="stylesheet" href="assets/styles/style.css" />
+        <script>
+            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "30px 10px";
+              } else {
+                document.getElementById("navbar").style.padding = "50px 10px";
+              }
+            }
+        </script>
+    </head>
+    <body>
+        <header id="navbar"> <!--use flex-->
+            <div class="header-left">
+                <a href="#">Nancy Laylana Putri</a>
+            </div>
+            <nav class="header-right">
+                <ul>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div>
+                <article id="intro" class="jumbotron">
+                    <h1>Nancy Laylana Putri, Cohort Bangkit 2023</h1>
+                    <p>Hello everyone!👋</p>
+                    <p>Welcome to my personal web.</p>
+                    <p>Here you'll get to know me personally through my journey, projects, and activities as 6th semester 
+                        student majoring Software Engineering. Currently, I have a lot of interest about cloud environtment 
+                        so I decided to join Bangkit Academy 2023 Batch 1 and choose Cloud Computing learning path.
+                    </p>
+                </article>
+
+                <article id="journey">
+                    <section class="card" >
+                        <h3>SMAN 1 SALATIGA</h2>
+                        <p>2017-2020</p>
+                        <p>Studied Mathematics and Natural Science. These subjects are essential for pursuing careers in 
+                            fields such as engineering, technology, research, medicine, and many others. 
+                        </p>
+                    </section>
+
+                    <section class="card" >
+                        <h3>UNIVERSITAS GADJAH MADA</h2>
+                        <p>2020-2024 (expected)</p>
+                        <p>Bachelor Degree in Software Engineering. The program typically covers topics such as programming 
+                            languages, software design, algorithms, data structures, database management, software testing, 
+                            and project management. 
+                        </p>
+                    </section>
+                </article>
+
+                <div id="projects">
+                    <section class="project">
+                        <h2>UI/UX Design of Altversio</h2>
+                        <p>
+                            A platform that offers people who are interested in Alternate Universe(AU), mostly from Twitter. 
+                            This project is task on course of PAD(Proyek Aplikasi Dasar). 
+                        </p>
+                        <img class="cover-img" src="assets/images/altversio.png" alt="altversio">
+                    </section>
+
+                    <section class="project">
+                        <h2>User Interface Researcher at Kantin Digital</h2>
+                        <p>
+                            Digital canteen applications for managing canteens more efficiently and effectively. The methods 
+                            used in the research could include surveys, interviews, case studies, and many more to gathering datas.
+                        </p>
+                        <img class="cover-img" src="assets/images/kantin-digital.png" alt="kantin-digital">
+                    </section>
+
+                    <section class="project">
+                        <h2>Frontend Engineer for Ujione Website</h2>
+                        <p>
+                            Ujione website is an online learning platforms (online learning) for students. Framework used in 
+                            this project is Svelte JS.
+                        </p>
+                        <img class="cover-img" src="assets/images/ujione.png" alt="ujione">
+                    </section>
+                </div>
+
+                <div id="activities" class="jumbotron">
+                    <h2>More like story-telling part..</h2>
+                    <p>
+                        My first year in college, I decided to join comunity called "Komunitas Mahasiswa TIK" for one period. 
+                        It is a comunity of student in UGM to encourage self developing their interest on IT field especially 
+                        regarding preparation for IT competitions. During the period I also volunteering as Facilitator in
+                        Gemastik XIV. 
+                    </p>
+                    <p>
+                        In my second year, I move to another comunity to encourage hard skill by joining Google Developer student
+                        Clubs UGM as Hipster. It was there that I gained I got new experiences and improved my skills in UI/UX design. 
+                    </p>
+                    <p>
+                        And currently, I dared to get out of my comfort zone and try the opportunity to join Bangkit from Kampus Merdeka
+                        programs. I hope this is can be my turning point for my future.
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <img class="profile-img" src="assets/images/profile.jpg" alt="profile-user">
+            <div id="contact">
+                <h1>Nancy Laylana Putri</h1>
+                <p>Cloud Computing Learning Path, Bangkit Cohort 2023</p>
+                <p>Let's connect with me on <a href="https://www.linkedin.com/in/nancy-laylana-putri/">Linkedin</a>.</p>
+            </div>
+        </aside>
+
+        <footer>
+            <p>Submission Dasar Pemrograman Web &#169; 2023, Dicoding Academy | Nancy Laylana Putri</p>
+        </footer>
+    </body>
+</html>
